@@ -1,0 +1,66 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+body {
+  background-color: purple
+}
+
+#jeopardy {
+  background-color: #060ce9;
+  text-align: center;
+  font-size: 9pt;
+  background-color: #060ce9;
+  color: white;
+  border-collapse: collapse;
+}
+
+#jeapordy td {
+  border: solid 1px white;
+  width: 150px;
+  padding: 5pxem;
+  border-radius:10px;
+}
+
+td:hover {
+  background-color: #5d62eb;
+}
+
+th {
+  border: solid 1px purple;
+  padding: 5px;
+  height: 50px;
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: -internal-center;
+}
+
+td {
+  height: 100px;
+  border: solid 1px purple;
+  width: 200px;
+  border-radius:10px;
+}
+
+#startGameBtn {
+  top:50%;
+  background-color:#0a0a23;
+  color: #fff;
+  border:none; 
+  border-radius:10px; 
+  padding:15px;
+  min-height:30px; 
+  min-width: 120px;}
+
+#startGameBtn:hover {
+  background-color: #023344;
+}
+
+img {
+  height:15px;
+  width:15px;
+}
